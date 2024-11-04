@@ -10,7 +10,7 @@ RT-ILS is a full-stack incident reporting and management system that combines a 
 # Setup and Installation
 To set up RT-ILS, follow these steps:
 1.	Install Node.js
-Download the Node.js installer here: Node.js Installer
+Download the Node.js installer here: [Node.js Installer](https://nodejs.org/en/download/prebuilt-installer)
 (No extra tools are required for this installation.)
 2.	Install Visual Studio Code
 Download Visual Studio Code here: Visual Studio Code
