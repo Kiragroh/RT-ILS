@@ -1,14 +1,14 @@
-#RT-ILS (Radiotherapy Incident Learning System)
-#Overview
+# RT-ILS (Radiotherapy Incident Learning System)
+# Overview
 RT-ILS is a full-stack incident management system tailored for radiotherapy environments. It integrates a React-based frontend for an intuitive user interface with a Node.js/Express backend and an SQLite database for efficient and lightweight data storage. The system features a modular design and reusable components, providing a dynamic and responsive user experience suitable for local development and deployment.
-#Key Features
+# Key Features
 •	Export Functionality: Easily export incident data in a structured CSV format, enabling integration with various risk management (RM) and data analysis tools, both general and specialized in healthcare/radiotherapy.
 •	Password Protection: Access to incident analysis and modification requires a password, securing sensitive information against unauthorized access.
 •	Guideline Alignment: RT-ILS is designed as a reference system aligned with radiotherapy incident management best practices. Any use or adaptation of the program is at the user's own risk, as regulatory and institutional requirements may differ.
 ________________________________________
-#Summary for Developers
+# Summary for Developers
 RT-ILS is a full-stack incident reporting and management system that combines a React frontend with a Node.js/Express backend and uses sqlite3 for seamless data handling. The backend interacts with a single, file-based SQLite database, eliminating the need for an external database server, and making local data storage and retrieval simple and efficient. This architecture is highly suitable for local development and testing.
-#Setup and Installation
+# Setup and Installation
 To set up RT-ILS, follow these steps:
 1.	Install Node.js
 Download the Node.js installer here: Node.js Installer
