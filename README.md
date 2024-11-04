@@ -2,10 +2,9 @@
 # Overview
 RT-ILS is a full-stack incident management system tailored for radiotherapy environments. It integrates a React-based frontend for an intuitive user interface with a Node.js/Express backend and an SQLite database for efficient and lightweight data storage. The system features a modular design and reusable components, providing a dynamic and responsive user experience suitable for local development and deployment.
 # Key Features
-•	Export Functionality: Easily export incident data in a structured CSV format, enabling integration with various risk management (RM) and data analysis tools, both general and specialized in healthcare/radiotherapy.
-•	Password Protection: Access to incident analysis and modification requires a password, securing sensitive information against unauthorized access.
-•	Guideline Alignment: RT-ILS is designed as a reference system aligned with radiotherapy incident management best practices. Any use or adaptation of the program is at the user's own risk, as regulatory and institutional requirements may differ.
-________________________________________
+-	Export Functionality: Easily export incident data in a structured CSV format, enabling integration with various risk management (RM) and data analysis tools, both general and specialized in healthcare/radiotherapy.
+-	Password Protection: Access to incident analysis and modification requires a password, securing sensitive information against unauthorized access.
+-	Guideline Alignment: RT-ILS is designed as a reference system aligned with radiotherapy incident management best practices. Any use or adaptation of the program is at the user's own risk, as regulatory and institutional requirements may differ.
 # Summary for Developers
 RT-ILS is a full-stack incident reporting and management system that combines a React frontend with a Node.js/Express backend and uses sqlite3 for seamless data handling. The backend interacts with a single, file-based SQLite database, eliminating the need for an external database server, and making local data storage and retrieval simple and efficient. This architecture is highly suitable for local development and testing.
 # Setup and Installation
@@ -28,10 +27,10 @@ Optional: If npm isn’t executable in VS Code, open PowerShell as administrator
 Set-ExecutionPolicy RemoteSigned
 Confirm the prompt with A.
 6.	Database Initialization
-o	Optional: A small sample database with test entries is available.
-o	To initialize a new database, run:
+-	Optional: A small sample database with test entries is available.
+-	To initialize a new database, run:
 node ./src/db/initializeDatabase.js
-o	To test database connectivity and query some sample data:
+-	To test database connectivity and query some sample data:
 node ./src/db/testDatabase.js
 7.	Add or change the admin user credentials in settings.json.
 8.	Start the Application
